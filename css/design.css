@@ -1,0 +1,135 @@
+.contact {
+    position: relative;
+    background-color: #3434bf;
+}
+
+.contact-pc {
+    position: relative;
+    display: inline-block;
+}
+
+.contact-pc::before {
+    content: "Contact us let's work together";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 43px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+
+.contact-pc img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 10px;
+    padding: 20px;
+
+}
+/* Start of Styling form ---------------------------------------------------------- */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* End of Styling form--------------------------------------------------------- */
+.contact-div {
+    width: 100%;
+    margin-bottom: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e0dfdc;
+}
+
+.contact-div-content {
+    padding: 40px;
+}
+
+.contact-div-content span {
+    font-size: 60px;
+    color: #2d2b82;
+}
+
+.contact-div-content p {
+    text-align: left;
+    color: #2d2b82;
+}
+
+/* ----------------------------------------------------------------------------------- */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    /* text-align: center; */
+}
+
+.grid-item h2 {
+    color: #273881;
+    margin-bottom: 10px;
+}
+
+.grid-item a {
+    color: #e92b09;
+    margin-bottom: 10px;
+
+}
+
+.grid-item a:hover {
+    color: #273881;
+
+}
+
+/* .grid-item img{
+    margin: 1px;
+} */
+.grid-item a img:hover {
+    transform: scale(0.7);
+}
+
+/* -------------------------------------------------- */
